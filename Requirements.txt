@@ -1,0 +1,20 @@
+Weather App Website
+
+Functional Requirements:
+	-User inputs location field (city or zip code)
+	-API call made to https://openweathermap.org/api
+	-Display "Hourly Forecast 4 Days" on the webpage after successful API call
+		-Design this page however you see fit! Be creative
+	-User can then enter another city or zip code and the data refreshes
+	
+Technical Requirements:
+	-Must display at least the following weather data from api payload (see link for example API payload https://openweathermap.org/current#current_JSON):
+		-weather.main
+		-main.temp
+		-main.feels_like
+		-main.humidity
+		-wind.speed
+	-Must use AJAX to retrieve API payload (in JSON format)
+	-Must use JQuery
+	-Must Use Bootstrap (Bootstrap 4 https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+	-No errors! 
