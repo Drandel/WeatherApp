@@ -6,10 +6,9 @@ $(document).ready(function(){
     console.log(url)
 
     $.ajax({
-
-        
         url: url,
-        type: 'GET',
+        type: 'POST',
+        dataType: 'json',
         data: {},
         success:function(data) {
             console.log(data);
